@@ -1,0 +1,459 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (max-width: 950px) {
+    .cont,.containers,.cont-img,.sdgs-info,.cont-time {
+        flex-direction: column; /* Change flex direction to column */
+    }
+}
+
+.containers{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.challenge-info,.challenge-image{
+    width: 50%;
+    padding: 20px;
+}
+
+#challenge-box h2 {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:weight;
+      font-style: normal;
+    }
+
+
+
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+.logo {
+    float: left;
+}
+nav {
+    float: right; 
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e0a901;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.logo img {
+    width: 250px;
+    
+}
+
+.title-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-logo h1 {
+    margin: 0;
+}
+
+#challenge-box {
+    background-color: rgb(219 234 254);
+    padding: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.challenge-info h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    /* font-size: 36px; */
+    margin-bottom: 10px;
+}
+
+.challenge-info p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    /* font-size: 18px;
+    line-height: 1.2; */
+    margin-bottom: 20px;
+}
+
+.bbuton {
+    background-color: rgb(59 130 246);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.challenge-image img {
+    max-width: 70%;
+    border-radius: 8px;
+    float: right; 
+    margin-left: 20px; 
+}
+
+.logo-center{
+    text-align: center;
+}
+
+.logo-center img {
+    margin-bottom: 30px;
+    width: 55%;
+    height: auto;
+}
+
+.about-challenge {
+    text-align: left;
+}
+
+.about-challenge h1{
+    font-size: 1.8rem;
+}
+
+.about-challenge p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.cont-img {
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.cont-img > div {
+    flex-grow: 1;
+}
+
+.u-img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    width: 100%; /* Ensure the image fills its container */
+}
+
+.about-challenge {
+    padding-left: 20px; /* Add padding for spacing */
+    width: 75%; /* Text takes up 75% of the container width */
+}
+
+.cont-img > div:first-child {
+    flex-basis: 25%; /* Image container takes up 25% of the container width */
+}
+
+.timeline, .registration-steps, .sdgs-info, .collaborations {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.timeline{
+    padding-top: 40px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.registration-steps{
+    margin-top: 50px;
+}
+
+
+.timeline h2, .registration-steps h2, .sdgs-info h2, .collaborations h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.collaborations{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.join{
+    background-color: #E03B30;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 115px;
+    cursor: pointer;
+    box-shadow:  8px 8px 27px #b3b3b3,
+             -8px -8px 27px #ffffff;
+}
+
+.sub{
+    background-color: rgb(59 130 246);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 115px;
+    cursor: pointer;
+    box-shadow:  8px 8px 27px #b3b3b3,
+             -8px -8px 27px #ffffff;
+}
+
+.sub-final{
+    background-color: #FABA09;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 115px;
+    cursor: pointer;
+    box-shadow:  8px 8px 27px #b3b3b3,
+             -8px -8px 27px #ffffff;
+}
+
+
+.sdgs-info img {
+    max-width: 100%;
+    border-radius: 8px;
+    
+}
+
+.sdgs-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.sdgs-info h2{
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.sdgs-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-top: 80px;
+    text-align: left;
+}
+
+.sdgs-info button{
+    margin-left: 10px;
+}
+
+.uni17 {
+    width: 25%; /* Image takes up 25% of the container width */
+}
+
+.sdgs-info .text {
+    flex: 1; /* Text and button take up remaining space */
+    padding-left: 20px; /* Add padding for spacing */
+}
+
+.sdgs-info button {
+    margin-top: 10px; /* Add margin to separate button from text */
+}
+
+
+footer {
+    background-color: #637170;
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-bottom: 25px;
+    
+}
+
+footer h3{
+    margin-left: 30px;
+}
+
+.foot{
+    display: flex;
+}
+
+.footer-left, .footer-right {
+    width: 50%;
+    padding: 20px;
+    margin-left: 20%;
+    
+}
+
+.copyright{
+    text-align: center;
+}
+
+.footer-right img {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.cont {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */  
+    text-align: center;
+}
+
+.cont-time {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    background-color: #D9D9D9 ;
+    border-radius: 16px;
+    
+}
+
+
+.item {
+    width: calc(33% - 20px); /* Each item takes up 30% of container's width minus some margin */
+    margin: 10px; /* Margin for spacing between items */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    /* text-align: left; */
+}
+
+
+
+.item img {
+    max-width: 80%; /* Ensure the image does not exceed the width of its container */
+    height: 40%; /* Maintain aspect ratio */
+    display: block; /* Prevents extra space beneath the image */ 
+    padding-top: 20px;
+}
+
+.itA{
+    max-height: 60%;
+    margin-left: 30px;
+}
+
+.shinas{
+    max-height: 25%;
+    margin-top: 30px;
+}
+
+.item p {
+    margin-top: 10px; /* Margin between the image and the description */
+}
+
+.item-2 {
+    width: calc(19% - 20px); /* Each item takes up 30% of container's width minus some margin */
+    margin: 10px; /* Margin for spacing between items */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    
+}
+
+.item-2 img {
+    max-width: 80%; /* Ensure the image does not exceed the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents extra space beneath the image */
+}
+
+
+
+.item-2 p {
+    margin-top: 30px; /* Margin between the image and the description */
+    text-align: center;
+}
+
+.htitle{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.dat{
+    color: #6F93E6;
+}
+
+.item1 {
+    width: calc(30% - 20px); /* Each item takes up 30% of container's width minus some margin */
+    margin: 10px; /* Margin for spacing between items */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: center;
+
+    /* border-width: 2px; 
+    border-style: solid;  
+    border: none; 
+    border-radius: 15px;
+    background-color: antiquewhite;
+     */
+
+}
+
+.item1 img {
+    max-width: 50%; /* Ensure the image does not exceed the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents extra space beneath the image */
+    padding-left: calc(25%);
+}
+
+.item1 p {
+    margin-top: 10px; /* Margin between the image and the description */
+    text-align: center;
+}
+
+.instagram-icon , .globe-icon {
+    font-size: 26px; /* Increase the size of the Instagram icon */
+}
+
+.icon-link {
+    margin-right: 15px; /* Add space between icons */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Remove the default blue color from anchor tags */
+a {
+    color: inherit; /* Use the color inherited from the parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+.u-img{
+    width: 300px;
+    height: auto;
+    padding-right: 20px;
+}
